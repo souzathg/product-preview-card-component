@@ -133,8 +133,6 @@ table {
   border-spacing: 0;
 }
 
-
-
 :root {
   /* COLORS */
   --primary-dark-cyan: hsl(158, 36%, 37%);
@@ -145,8 +143,8 @@ table {
   --link-color: hsl(228, 45%, 44%);
 
   /* TYPOGRAPHY */
-  --sans: 'Montserrat', sans-serif;
-  --serif: 'Fraunces', serif;
+  --sans: "Montserrat", sans-serif;
+  --serif: "Fraunces", serif;
 }
 
 html {
@@ -207,7 +205,7 @@ h2 {
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--neutral-grayish-blue);
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 h1 {
@@ -283,7 +281,7 @@ span.old-price {
   .image-container {
     border-radius: 0.8rem 0 0 0.8rem;
     height: 100%;
-    max-width: 50%;
+    width: 50%;
     background-image: url("../images/image-product-desktop.jpg");
     background-size: cover;
     background-position: center center;
@@ -294,13 +292,11 @@ span.old-price {
     width: 100%;
     height: fit-content;
     border-radius: 0 0.8rem 0.8rem 0;
-
   }
 
   main {
     flex-direction: row;
-    max-width: 30%;
+    max-width: 33%;
     max-height: auto;
   }
-
 }

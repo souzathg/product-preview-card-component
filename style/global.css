@@ -153,10 +153,6 @@ html {
   text-align: center;
 }
 
-a {
-  color: var(--link-color);
-}
-
 body {
   height: 100vh;
   width: 100vw;
@@ -298,5 +294,33 @@ span.old-price {
     flex-direction: row;
     max-width: 33%;
     max-height: auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    color: var(--neutral-dark-blue);
+    text-decoration: none;
+    transition-property: color font-size;
+    transition-duration: 500ms;
+    font-family: var(--serif);
+  }
+
+  a:hover {
+    color: var(--neutral-dark-blue);
+    font-size: large;
+  }
+
+  .footer-text {
+    color: var(--neutral-grayish-blue);
+  }
+
+  .attribution {
+    display: block;
+    position: absolute;
+    bottom: 1.25rem;
   }
 }

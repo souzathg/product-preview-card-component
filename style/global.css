@@ -239,8 +239,18 @@ h1 {
 }
 
 .btn:hover {
+  color: var(--neutral-white);
   background-color: var(--primary-dark-cyan);
   opacity: 100%;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+  transition-property: all;
+  transition-duration: 300ms;
+  font-weight: 700;
+  font-size: 0.8rem;
 }
 
 img.cart-icon {
